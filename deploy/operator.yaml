@@ -16,7 +16,7 @@ spec:
       containers:
         - name: k8s-cluster-operator
           # Replace this with the built image name
-          image: REPLACE_IMAGE
+          image: pavelmikhalchuk/k8s-cluster-operator
           command:
           - k8s-cluster-operator
           imagePullPolicy: Always

@@ -1,0 +1,7 @@
+apiVersion: k8s.mikhalchuk/v1alpha1
+kind: K8SCluster
+metadata:
+  name: example-k8scluster
+spec:
+  # Add fields here
+  size: 3
